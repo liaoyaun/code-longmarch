@@ -30,22 +30,6 @@
             position: relative;
             z-index: 1;
         }
-        .star {
-            width: 60px;
-            height: 60px;
-            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-            background-color: #ffd700;
-            margin: 0 auto 16px;
-            animation: starGlow 3s ease-in-out infinite alternate;
-        }
-        @keyframes starGlow {
-            from {
-                box-shadow: 0 0 12px #ffd700, 0 0 24px rgba(255, 215, 0, 0.4);
-            }
-            to {
-                box-shadow: 0 0 20px #ffd700, 0 0 40px rgba(255, 215, 0, 0.7);
-            }
-        }
         .page-cover {
             height: 100vh;
             display: flex;
@@ -253,7 +237,6 @@
     <canvas id="canvas-bg"></canvas>
     <div class="container">
         <section class="page-cover">
-            <div class="star"></div>
             <h1>码绘长征路 · 数字颂祖国</h1>
             <p>信息工程学院国庆主题交互作品<br>以代码为笔，追溯长征星火，致敬祖国77载华诞</p>
             <div class="scroll-tip">向下滚动探索长征路线 ↓</div>
